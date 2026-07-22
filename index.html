@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#fff7ec">
+<title>找不同大挑戰</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="rotateNotice">請將手機直立使用</div>
+<main class="app">
+  <header>
+    <div>
+      <h1>找不同大挑戰</h1>
+      <p id="levelTitle">第 1 關</p>
+    </div>
+    <div class="status">
+      <span id="progress">0 / 5</span>
+      <span id="levelCount">1 / 5</span>
+    </div>
+  </header>
+
+  <section class="game">
+    <div class="imageWrap" id="topWrap">
+      <img id="imgA" alt="上方圖片">
+      <div class="overlay" id="overlayA"></div>
+    </div>
+
+    <div class="divider">
+      <span>找出 5 個不同的地方</span>
+    </div>
+
+    <div class="imageWrap" id="bottomWrap">
+      <img id="imgB" alt="下方圖片">
+      <div class="overlay" id="overlayB"></div>
+    </div>
+  </section>
+
+  <nav>
+    <button id="hintBtn">💡 提示 <small id="hintCount">3</small></button>
+    <button id="restartBtn">↻ 重來</button>
+    <button id="nextBtn" disabled>下一關 →</button>
+  </nav>
+</main>
+
+<div id="toast"></div>
+
+<div class="modal" id="modal">
+  <div class="modalBox">
+    <div class="emoji">🎉</div>
+    <h2 id="modalTitle">過關！</h2>
+    <p id="modalText">你找到了全部不同之處。</p>
+    <button id="modalBtn">繼續</button>
+  </div>
+</div>
+
+<script src="levels.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

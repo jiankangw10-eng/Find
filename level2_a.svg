@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7fc8ff"/>
+      <stop offset="100%" stop-color="#dff4ff"/>
+    </linearGradient>
+    <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffb47b"/>
+      <stop offset="100%" stop-color="#ffe4c7"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity=".18"/></filter>
+  </defs>
+  
+<rect width="1200" height="700" fill="#dff6c9"/>
+<circle cx="170" cy="120" r="55" fill="#ffd75b"/>
+<rect y="500" width="1200" height="200" fill="#8fcf72"/>
+<ellipse cx="600" cy="535" rx="340" ry="95" fill="#f4d88f"/>
+<g filter="url(#shadow)">
+<circle cx="330" cy="380" r="90" fill="#f1a35b"/><circle cx="285" cy="300" r="32" fill="#f1a35b"/><circle cx="375" cy="300" r="32" fill="#f1a35b"/>
+<circle cx="600" cy="380" r="90" fill="#d9d9d9"/><circle cx="555" cy="300" r="30" fill="#bfbfbf"/><circle cx="645" cy="300" r="30" fill="#bfbfbf"/>
+<circle cx="860" cy="385" r="85" fill="#f3c0c0"/><polygon points="800,315 835,250 860,325" fill="#f3c0c0"/><polygon points="860,325 900,250 920,320" fill="#f3c0c0"/>
+</g>
+<circle cx="300" cy="370" r="9"/><circle cx="355" cy="370" r="9"/><circle cx="575" cy="370" r="9"/><circle cx="625" cy="370" r="9"/><circle cx="835" cy="375" r="9"/><circle cx="885" cy="375" r="9"/>
+<path d="M310 405 q20 20 40 0" fill="none" stroke="#754c24" stroke-width="7"/><path d="M585 405 q15 15 30 0" fill="none" stroke="#555" stroke-width="7"/>
+<rect x="500" y="490" width="200" height="70" rx="20" fill="#e86f61"/><circle cx="540" cy="525" r="18" fill="#fff"/><circle cx="590" cy="525" r="18" fill="#fff"/><circle cx="640" cy="525" r="18" fill="#fff"/>
+<path d="M180 520 l80 -110 l80 110z" fill="#8e6cc7"/><rect x="250" y="430" width="20" height="90" fill="#6d4b31"/>
+<g fill="#fff"><ellipse cx="760" cy="120" rx="70" ry="28"/><ellipse cx="825" cy="120" rx="45" ry="22"/></g>
+
+</svg>
