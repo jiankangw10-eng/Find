@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-Hant"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#111827"><title>找不同｜15+ 挑戰版</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<main class="app">
+<header><div><h1>找不同</h1><p id="levelTitle">15+ 挑戰版</p></div>
+<div class="status"><span id="timer">90</span><span id="progress">0 / 7</span><span id="levelCount">1 / 5</span></div></header>
+<section class="game"><div class="imageWrap" id="topWrap"><img id="imgA"><div class="overlay" id="overlayA"></div></div>
+<div class="divider">找出 7 個細微差異</div>
+<div class="imageWrap" id="bottomWrap"><img id="imgB"><div class="overlay" id="overlayB"></div></div></section>
+<nav><button id="hintBtn">提示 <small id="hintCount">2</small></button><button id="restartBtn">重來</button><button id="nextBtn" disabled>下一關</button></nav>
+</main><div id="toast"></div><div class="modal" id="modal"><div class="modalBox"><h2 id="modalTitle"></h2><p id="modalText"></p><button id="modalBtn">繼續</button></div></div>
+<script src="levels.js"></script><script src="app.js"></script></body></html>
