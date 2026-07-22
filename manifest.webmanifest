@@ -1,9 +1,0 @@
-{
-  "name": "找不同大挑戰",
-  "short_name": "找不同",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#fff7ec",
-  "theme_color": "#fff7ec",
-  "icons": []
-}
