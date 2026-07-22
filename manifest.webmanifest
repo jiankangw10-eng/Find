@@ -1,0 +1,9 @@
+{
+  "name": "找不同 15+ 完整版",
+  "short_name": "找不同",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#111827",
+  "icons": []
+}
